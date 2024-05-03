@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="">
 </head>
 
 <body>
@@ -12,7 +14,19 @@
     padding: 12px 24px; border-radius: 10px; font-size: 18px; "> done </button>
 
     <h1 class="heads" id="headingId">Name</h1>
-    
+
+    <!-- AddEventListner()-->
+    <div class="myDiv" id="myDiv">Hello Div</div>
+
+    <!-- AppendChild()-->
+    <div id="parent"><!-- Div - is Called by js using id -->
+        <!-- h1 - is added by js using createElement -->
+        <!-- p - is added by js using createElement -->
+        <!-- a - is added by js using createElement, setAttributes  -->
+        <!-- <p >Remove child</p> -->
+        <h1 id="removeChildNode">Remove child</h1>
+    </div>
+
     <script src="domManipulation.js"></script>
 
     <!-- <script src="practiceJSTest.js"></script> -->

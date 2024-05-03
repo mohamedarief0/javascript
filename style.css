@@ -1,0 +1,9 @@
+.myAnchor_tag{
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 1000;
+    float: right;
+    cursor: pointer;
+}
