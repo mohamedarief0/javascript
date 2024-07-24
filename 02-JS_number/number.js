@@ -16,3 +16,16 @@ var z = "5.123"
 console.log(parseInt(z)); // 5 type will be number
 console.log(parseFloat(z)); // 5.123 type will be number
  
+console.log(Number(true)) //value 1
+
+// output
+// 1;
+// 12.6;
+// 12.55;
+// 12.55;
+// 1e1;
+// 12;
+// 12;
+// 5;
+// 5.123;
+// 1;
