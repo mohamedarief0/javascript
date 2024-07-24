@@ -6,13 +6,16 @@ let headiging = document.getElementById("headingId");
 let currentIndex = 0;
 console.log(headiging);
 function nameChange() {
-  headiging.innerHTML = myFriendName[currentIndex];
   currentIndex = (currentIndex + 1) % myFriendName.length;
+  headiging.innerHTML = myFriendName[currentIndex];
   console.log(myFriendName);
-  console.log(myFriendName[0].name1);
-  console.log(myFriendName[0].name2);
+  //array of object
+  // console.log(myFriendName[0].name1);
+  // console.log(myFriendName[0].name2);
 }
 headiging.addEventListener("click", nameChange);
+
+
 // let a= "4"
 let a = "4";
 let b = 4;
